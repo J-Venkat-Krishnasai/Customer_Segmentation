@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load the model
-model = joblib.load(r"C:\Users\TEMP\OneDrive\Internship Project\kmeans_model.h5")
+model = joblib.load("kmeans_model.h5")
 
 # App title
 st.title("Cognitive Insights on Customer Segmentation using watson AI")
